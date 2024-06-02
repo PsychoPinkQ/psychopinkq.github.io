@@ -333,7 +333,7 @@ footer:
 inject:
   enable: false  # Option values: true | false
   css:
-    -
+    - css/custom.css
     # e.g.
     # - /css/custom-1.css
     # - /css/custom-2.css
@@ -344,6 +344,9 @@ inject:
     # - /js/custom-1.js
     # - /js/custom-2.js
     # - ...
+
+render:
+  html: true
 
 mathjax:
   tags: none               # or 'ams' or 'all'

@@ -40,11 +40,28 @@ hexo還蠻方便的，只要裝好hexo後hexo init一下再下載theme(這個the
 ![meow](/images/testadf.jpg)
 
 $$
-隨便抄來的數學公式
-i\hbar\frac{\partial}{\partial t}\psi=-\frac{\hbar^2}{2m}\nabla^2\psi+V\psi
+\begin{align*}
+我不會latex，雖然這個是mathjax\\
+不知道為什麼不align會死掉\\
+\begin{bmatrix}
+\omega^{0} & \omega^{0} & \omega^{0} & \omega^{0} & \omega^{0} & \omega^{0} & \omega^{0} & \omega^{0} \\
+\omega^{0} & \omega^{2} & \omega^{4} & \omega^{6} & \omega^{1} & \omega^{3} & \omega^{5} & \omega^{7} \\
+\omega^{0} & \omega^{4} & \omega^{0} & \omega^{4} & \omega^{2} & \omega^{6} & \omega^{2} & \omega^{6} \\
+\omega^{0} & \omega^{6} & \omega^{4} & \omega^{2} & \omega^{3} & \omega^{1} & \omega^{7} & \omega^{5} \\
+\omega^{0} & \omega^{0} & \omega^{0} & \omega^{0} & \omega^{4} & \omega^{4} & \omega^{4} & \omega^{4} \\
+\omega^{0} & \omega^{2} & \omega^{4} & \omega^{6} & \omega^{5} & \omega^{7} & \omega^{1} & \omega^{3} \\
+\omega^{0} & \omega^{4} & \omega^{0} & \omega^{4} & \omega^{6} & \omega^{2} & \omega^{6} & \omega^{2} \\
+\omega^{0} & \omega^{6} & \omega^{4} & \omega^{2} & \omega^{7} & \omega^{5} & \omega^{3} & \omega^{1}
+\end{bmatrix}
+\end{align*}
 $$
 
-可以不要置中嗎$真的喔y=ax+b$拉拉拉ㄌ拉
+$$
+aersgn;oains;odgina;sdgnf;aisdng;loinsad;gona;ogsing;oians;dgina;odsign;saidn;goinadsoign;ininosndoigfnoinoinasdifnoino
+$$
+
+$你要教我y=ax+b嗎$
+可以不要置中嗎?`拉拉拉ㄌ`
 
 ```cpp
 #include <bits/stdc++.h>
