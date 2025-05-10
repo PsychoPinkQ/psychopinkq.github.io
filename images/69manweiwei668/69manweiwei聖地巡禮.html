@@ -45,7 +45,7 @@
     <script class="keep-theme-configurations">
     const KEEP = window.KEEP || {}
     KEEP.hexo_config = {"hostname":"example.com","root":"/","language":"zh-TW"}
-    KEEP.theme_config = {"base_info":{"primary_color":"#FF9999","title":"PsychoPinkQ's Blog","author":"卡藍的小粉紅","avatar":"/images/avatar.svg","logo":"/images/logo.svg","favicon":"/images/logo.svg"},"menu":{"home":"/","archives":"/archives","tags":"/tags","categories":"/categories","about":"/about"},"first_screen":{"enable":false,"background_img":"/images/bg.svg","background_img_dark":"/images/bg.svg","description":"Keep writing and Keep loving.","hitokoto":false},"social_contact":{"enable":false,"links":{"github":null,"weixin":null,"qq":null,"weibo":null,"zhihu":null,"twitter":null,"x":null,"facebook":null,"email":null}},"scroll":{"progress_bar":false,"percent":false,"hide_header":true},"home":{"announcement":null,"category":false,"tag":false,"post_datetime":"updated"},"post":{"author_badge":{"enable":true,"level_badge":false,"custom_badge":"一個夢，一份希望"},"word_count":{"wordcount":false,"min2read":false},"datetime_format":"YYYY-MM-DD HH:mm:ss","copyright_info":false,"share":false,"reward":{"enable":false,"img_link":null,"text":null}},"code_block":{"tools":{"enable":false,"style":"default"},"highlight_theme":"default"},"toc":{"enable":true,"number":false,"expand_all":false,"init_open":false,"layout":"right"},"website_count":{"busuanzi_count":{"enable":false,"site_uv":false,"site_pv":false,"page_pv":false}},"local_search":{"enable":true,"preload":true},"comment":{"enable":false,"use":"valine","valine":{"appid":null,"appkey":null,"server_urls":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.36"},"waline":{"server_url":null,"reaction":false,"version":"3.2.1"},"giscus":{"repo":null,"repo_id":null,"category":"Announcements","category_id":null,"reactions_enabled":false},"artalk":{"server":null},"disqus":{"shortname":null}},"rss":{"enable":false},"lazyload":{"enable":false},"cdn":{"enable":false,"provider":"cdnjs"},"pjax":{"enable":false},"footer":{"since":2024,"word_count":false,"site_deploy":{"enable":false,"provider":"github","url":null},"record":{"enable":false,"list":[{"code":null,"link":null}]}},"inject":{"enable":true,"css":[null,"/css/custom-1.css"],"js":[null]},"render":{"html":true},"mathjax":{"tags":"none","single_dollars":true,"cjk_width":0.9,"normal_width":0.6,"append_css":true,"every_page":false},"root":"","source_data":{},"version":"4.1.3"}
+    KEEP.theme_config = {"base_info":{"primary_color":"#FF9999","title":"PsychoPinkQ's Blog","author":"卡藍的小粉紅","avatar":"/images/avatar.svg","logo":"/images/logo.svg","favicon":"/images/logo.svg"},"menu":{"home":"/","archives":"/archives","tags":"/tags","about":"/about"},"first_screen":{"enable":false,"background_img":"/images/bg.svg","background_img_dark":"/images/bg.svg","description":"Keep writing and Keep loving.","hitokoto":false},"social_contact":{"enable":false,"links":{"github":null,"weixin":null,"qq":null,"weibo":null,"zhihu":null,"twitter":null,"x":null,"facebook":null,"email":null}},"scroll":{"progress_bar":false,"percent":false,"hide_header":true},"home":{"announcement":null,"category":false,"tag":false,"post_datetime":"updated"},"post":{"author_badge":{"enable":true,"level_badge":false,"custom_badge":"一個夢，一份希望"},"word_count":{"wordcount":true,"min2read":false},"datetime_format":"YYYY-MM-DD HH:mm","copyright_info":false,"share":false,"reward":{"enable":false,"img_link":null,"text":null}},"code_block":{"tools":{"enable":true,"style":"default"},"highlight_theme":"default"},"toc":{"enable":true,"number":false,"expand_all":false,"init_open":false,"layout":"right"},"website_count":{"busuanzi_count":{"enable":true,"site_uv":false,"site_pv":false,"page_pv":true}},"local_search":{"enable":true,"preload":true},"comment":{"enable":false,"use":"valine","valine":{"appid":null,"appkey":null,"server_urls":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.36"},"waline":{"server_url":null,"reaction":false,"version":"3.2.1"},"giscus":{"repo":null,"repo_id":null,"category":"Announcements","category_id":null,"reactions_enabled":false},"artalk":{"server":null},"disqus":{"shortname":null}},"rss":{"enable":false},"lazyload":{"enable":true},"cdn":{"enable":false,"provider":"cdnjs"},"pjax":{"enable":false},"footer":{"since":2024,"word_count":false,"site_deploy":{"enable":false,"provider":"github","url":null},"record":{"enable":false,"list":[{"code":null,"link":null}]}},"inject":{"enable":true,"css":[null,"/css/custom-1.css"],"js":[null]},"render":{"html":true},"mathjax":{"tags":"none","single_dollars":true,"cjk_width":0.9,"normal_width":0.6,"append_css":true,"every_page":false},"root":"","source_data":{},"version":"4.1.3"}
     KEEP.language_ago = {"second":"%s 秒前","minute":"%s 分鐘前","hour":"%s 小時前","day":"%s 天前","week":"%s 周前","month":"%s 個月前","year":"%s 年前"}
     KEEP.language_code_block = {"copy":"復製代碼","copied":"已復製","fold":"折疊代碼塊","folded":"已折疊"}
     KEEP.language_copy_copyright = {"copy":"復製版權信息","copied":"已復製","title":"原文標題","author":"原文作者","link":"原文連結"}
@@ -121,16 +121,6 @@
                         
                         <li class="menu-item">
                             <a class=""
-                               href="/categories"
-                            >
-                                
-                                分類
-                            </a>
-                        </li>
-                    
-                        
-                        <li class="menu-item">
-                            <a class=""
                                href="/about"
                             >
                                 
@@ -183,13 +173,6 @@
                 
                 <li class="drawer-menu-item flex-center">
                     <a class=""
-                       href="/categories"
-                    >分類</a>
-                </li>
-            
-                
-                <li class="drawer-menu-item flex-center">
-                    <a class=""
                        href="/about"
                     >關於</a>
                 </li>
@@ -211,80 +194,18 @@
 
                     
 <div class="fade-in-down-animation">
-    <div class="post-page-container border-box">
-        <div class="post-content-container border-box">
+    <div class="page-template-container border-box keep-container ">
+        <!-- page top -->
+        
+
+        <!-- page bottom -->
+        <div class="page-template-bottom border-box">
+            <!-- use page template -->
             
 
-            <div class="post-content-bottom border-box">
+            <!-- page content -->
+            <div class="page-content border-box keep-markdown-body ">
                 
-                    <div class="post-title">
-                        《69manweiwei的IOI金奇幻冒險》聖地巡禮
-                    </div>
-                
-
-                
-                    <div class="post-header border-box">
-                        
-                            <div class="avatar-box border-box">
-                                <img src="/images/avatar.svg">
-                            </div>
-                        
-                        <div class="info-box">
-                            <div class="author border-box">
-                                <span class="name">卡藍的小粉紅</span>
-                                
-                                    <span class="author-badge">一個夢，一份希望</span>
-                                
-                            </div>
-                            <div class="meta-info border-box">
-                                
-
-<div class="post-meta-info-container border-box post">
-    <div class="post-meta-info border-box">
-        
-
-        
-            <span class="meta-info-item post-create-date">
-                <i class="icon fa-solid fa-calendar-plus"></i>&nbsp;
-                <span class="datetime">2024-06-09 00:41:17</span>
-            </span>
-
-            <span class="meta-info-item post-update-date">
-                <i class="icon fa-solid fa-file-pen"></i>&nbsp;
-                <span class="datetime" data-updated="Fri Sep 06 2024 23:59:29 GMT+0800">2024-09-06 23:59:29</span>
-            </span>
-        
-
-        
-
-        
-            <span class="post-tag meta-info-item border-box">
-                <ul class="post-tag-ul">
-                    
-                            <li class="tag-item"><span class="tag-separator"><i class="icon fas fa-hashtag"></i></span><a href="/tags/%E9%81%8A%E8%A8%98/">遊記</a></li>
-                        
-                    
-                </ul>
-            </span>
-        
-
-        
-        
-        
-        
-    </div>
-
-    
-</div>
-
-                            </div>
-                        </div>
-                    </div>
-                
-
-                <div class="post-content keep-markdown-body ">
-                    
-
                     <h1 id="喔是喔"><a href="#喔是喔" class="headerlink" title="喔是喔"></a>喔是喔</h1><h2 id="本文資訊"><a href="#本文資訊" class="headerlink" title="本文資訊"></a>本文資訊</h2><p>小弟於20240606南下前往新竹國旅遊，途中見識了很多，特別是朝聖這一部分值得一題，所以就決定寫成遊記了。<br>後有修訂都會放在修訂紀錄。</p>
 <h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>本人2(1)4(7)歲是個學(白)生(痴)，這我第一次出國&amp;自由行，規劃了竹科園區共8小時的邊朝聖邊玩的行程，拿出來分享~<br>請大家多多指教，歡迎大家一同討論，如果有什麼寫不好的地方希望能鞭小力點(畢竟是我第一次寫，參考了多篇網路上的聖地巡禮XD)<br>那就話不多說直接開始吧~! &#x3D;U&#x3D;</p>
 <h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><h2 id="出發前"><a href="#出發前" class="headerlink" title="出發前"></a>出發前</h2><p>在五月的時候就選好誰要去什麼學校了，我不知道選甚麼就選實中了，現在想想真是明智的選擇阿。owoovo巨砲看到我選就跟著選了。<br>前一天因為很興奮，所以都沒睡覺。 (其實是在做化學作業小牛頓雜誌報告)</p>
@@ -299,18 +220,78 @@
 <p>然而，成發進行到一半時，突如其來的危機打破了平靜——MARS病毒悄然蔓延，學生們紛紛倒下。關鍵時刻，69manweiwei化身傳染病學家「實中葳」，挑起了拯救大家的重任。他與物理老師、鯊老大及一位醫生合作，經過一番調查，終於找到了$omega$，這個解藥治好了病毒，還恢復了所有人的記憶。<br>最後，成發得以順利完成，所有人站上舞台，合唱著那首感動的成發曲。歌聲中充滿了青春的熱血與不悔的回憶，彷彿在向這段時光告別，也向未來宣告他們無懼挑戰的決心。</p>
 <h3 id="隨便幾張照片"><a href="#隨便幾張照片" class="headerlink" title="隨便幾張照片"></a>隨便幾張照片</h3><details>
   <summary>巨砲</summary>
-<img     src="/images/69manweiwei668/1.jpg"   alt="drawing" style="width:488px;"><br>
-<img     src="/images/69manweiwei668/2.jpg"   alt="drawing" style="width:488px;"><br>
-<img     src="/images/69manweiwei668/3.jpg"   alt="drawing" style="width:488px;"><br>
-<img     src="/images/69manweiwei668/4.jpg"   alt="drawing" style="width:488px;"><br>
-<img     src="/images/69manweiwei668/5.jpg"   alt="drawing" style="width:488px;"><br>
-<img     src="/images/69manweiwei668/6.jpg"   alt="drawing" style="width:488px;"><br>
-<img     src="/images/69manweiwei668/7.jpg"   alt="drawing" style="width:488px;"><br>
-<img     src="/images/69manweiwei668/8.jpg"   alt="drawing" style="width:488px;"><br>
-<img     src="/images/69manweiwei668/9.jpg"   alt="drawing" style="width:488px;"><br>
-<img     src="/images/69manweiwei668/10.jpg"   alt="drawing" style="width:488px;"><br>
-<img     src="/images/69manweiwei668/11.jpg"   alt="drawing" style="width:488px;"><br>
-<img     src="/images/69manweiwei668/18.jpg"   alt="drawing" style="width:488px;">
+<img    
+                       lazyload
+                       alt="image"
+                       data-src="/images/69manweiwei668/1.jpg"
+                         alt="drawing" style="width:488px;"
+                 ><br>
+<img    
+                       lazyload
+                       alt="image"
+                       data-src="/images/69manweiwei668/2.jpg"
+                         alt="drawing" style="width:488px;"
+                 ><br>
+<img    
+                       lazyload
+                       alt="image"
+                       data-src="/images/69manweiwei668/3.jpg"
+                         alt="drawing" style="width:488px;"
+                 ><br>
+<img    
+                       lazyload
+                       alt="image"
+                       data-src="/images/69manweiwei668/4.jpg"
+                         alt="drawing" style="width:488px;"
+                 ><br>
+<img    
+                       lazyload
+                       alt="image"
+                       data-src="/images/69manweiwei668/5.jpg"
+                         alt="drawing" style="width:488px;"
+                 ><br>
+<img    
+                       lazyload
+                       alt="image"
+                       data-src="/images/69manweiwei668/6.jpg"
+                         alt="drawing" style="width:488px;"
+                 ><br>
+<img    
+                       lazyload
+                       alt="image"
+                       data-src="/images/69manweiwei668/7.jpg"
+                         alt="drawing" style="width:488px;"
+                 ><br>
+<img    
+                       lazyload
+                       alt="image"
+                       data-src="/images/69manweiwei668/8.jpg"
+                         alt="drawing" style="width:488px;"
+                 ><br>
+<img    
+                       lazyload
+                       alt="image"
+                       data-src="/images/69manweiwei668/9.jpg"
+                         alt="drawing" style="width:488px;"
+                 ><br>
+<img    
+                       lazyload
+                       alt="image"
+                       data-src="/images/69manweiwei668/10.jpg"
+                         alt="drawing" style="width:488px;"
+                 ><br>
+<img    
+                       lazyload
+                       alt="image"
+                       data-src="/images/69manweiwei668/11.jpg"
+                         alt="drawing" style="width:488px;"
+                 ><br>
+<img    
+                       lazyload
+                       alt="image"
+                       data-src="/images/69manweiwei668/18.jpg"
+                         alt="drawing" style="width:488px;"
+                 >
 </details>
 
 <h3 id="影片檔"><a href="#影片檔" class="headerlink" title="影片檔"></a>影片檔</h3><p>我把珍貴影像(感謝guagua0407之母贊助其中一部)都丟到youtube了<br>怕被爬蟲搜到，所以這裡做個加密的動作(用<a class="link"   target="_blank" rel="noopener" href="https://www.devglan.com/online-tools/rsa-encryption-decryption" >這個網站<i class="fas fa-external-link-alt"></i></a>生的，加密格式是<code>RSA/ECB/PKS1Padding</code>，用原本的網站或是找chatgpt就可以解密了)</p>
@@ -335,90 +316,12 @@
 <h2 id="回臺北"><a href="#回臺北" class="headerlink" title="回臺北"></a>回臺北</h2><p>一結束，農夫樹說要去看朋友，先溜了<br>帶隊的鈺雯姐說坐客運很酷吧，一天解鎖5種交通工具ㄟ，所以大家就走去等公車(去到清大搭客運)，結果又看到農夫樹，我就在馬路上對他大叫得臻，我真的太怪了。<br>1730到清大後就坐上客運了，在客運上我和owoovo繼續趕作業，又花了一小時總算是完成了，然後就一路睡到1930下車解散。<br>解散之後，跟著農夫樹走，我以為他要去吉豚屋，沒想到他是要鑽美食廣場(大馬路上看的到、黑漆漆的那間)旁邊的門進去壽德大樓薪哲那拿講義，我高中兩年雖然繳了全科班的錢但從未去過(媽媽我對不起你)，不敢亂跟，所以就自已吃吉豚屋。<br>吃了腰內里肌定食，很久沒吃吉豚屋，變成自助式了，雖然還是好貴但不再收服務費了也還行吧。<br>吃完就回家睡覺了。</p>
 <h1 id="修訂紀錄與感想"><a href="#修訂紀錄與感想" class="headerlink" title="修訂紀錄與感想"></a>修訂紀錄與感想</h1><p>20240609 大致完成文章，超級流水帳，耍怪耍得好辛苦，文筆很差抱歉。然後我之後再傳typical 90題解!<br>20240906 哭哭哭哭哭，寫不完了啦要寫不完了啦，只能叫chatgpt幫我寫，typical 90目前大概只寫40題燒雞。</p>
 
-                </div>
-                
-
-                <div class="post-bottom-tags-and-share border-box">
-                    <div>
-                        
-                            <ul class="post-tags-box border-box">
-                                
-                                    <li class="tag-item border-box">
-                                        <i class="icon fas fa-hashtag"></i>&nbsp;<a href="/tags/%E9%81%8A%E8%A8%98/">遊記</a>
-                                    </li>
-                                
-                            </ul>
-                        
-                    </div>
-                    <div>
-                        
-                    </div>
-                </div>
-
-                
-
-                
-                    <div class="post-nav border-box">
-                        
-                            <div class="prev-post">
-                                <a class="prev"
-                                   rel="prev"
-                                   href="/2024/11/03/thspc2024/"
-                                   title="北市賽2024、近況(發牢騷)"
-                                >
-                                    <span class="left arrow-icon flex-center">
-                                        <i class="fas fa-chevron-left"></i>
-                                    </span>
-                                    <span class="title flex-center">
-                                        <span class="post-nav-title-item text-ellipsis">北市賽2024、近況(發牢騷)</span>
-                                        <span class="post-nav-item">上一篇</span>
-                                    </span>
-                                </a>
-                            </div>
-                        
-                        
-                            <div class="next-post">
-                                <a class="next"
-                                   rel="next"
-                                   href="/2024/06/01/Hello-Blog/"
-                                   title="Hello Blog!"
-                                >
-                                    <span class="title flex-center">
-                                        <span class="post-nav-title-item text-ellipsis">Hello Blog!</span>
-                                        <span class="post-nav-item">下一篇</span>
-                                    </span>
-                                    <span class="right arrow-icon flex-center">
-                                        <i class="fas fa-chevron-right"></i>
-                                    </span>
-                                </a>
-                            </div>
-                        
-                    </div>
-                
-
-                
-                    
-
-
-
-
-
-
                 
             </div>
+
+            <!-- comment plugin -->
+            
         </div>
-
-        
-            <div class="pc-post-toc right-toc">
-                <div class="post-toc-wrap border-box">
-    <div class="post-toc border-box">
-        <!-- use hexo-blog-encrypt -->
-        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%96%94%E6%98%AF%E5%96%94"><span class="nav-text">喔是喔</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%AC%E6%96%87%E8%B3%87%E8%A8%8A"><span class="nav-text">本文資訊</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%91%98%E8%A6%81"><span class="nav-text">摘要</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%AD%A3%E6%96%87"><span class="nav-text">正文</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%87%BA%E7%99%BC%E5%89%8D"><span class="nav-text">出發前</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%B0%E6%96%B0%E7%AB%B9"><span class="nav-text">到新竹</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%80%8A69manweiwei%E7%9A%84IOI%E9%87%91%E5%A5%87%E5%B9%BB%E5%86%92%E9%9A%AA%E3%80%8B%E5%89%8D%E5%82%B3-%E2%80%94%E3%80%8A%E5%82%B3%E6%9F%93%E7%97%85%E5%AD%B8%E5%AE%B6%E5%AF%A6%E4%B8%AD%E8%91%B3%E6%8B%AF%E6%95%91%E4%B8%96%E7%95%8C%E3%80%8B"><span class="nav-text">《69manweiwei的IOI金奇幻冒險》前傳 —《傳染病學家實中葳拯救世界》</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%9A%A8%E4%BE%BF%E5%B9%BE%E5%BC%B5%E7%85%A7%E7%89%87"><span class="nav-text">隨便幾張照片</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BD%B1%E7%89%87%E6%AA%94"><span class="nav-text">影片檔</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%9E%E8%87%BA%E5%8C%97"><span class="nav-text">回臺北</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BF%AE%E8%A8%82%E7%B4%80%E9%8C%84%E8%88%87%E6%84%9F%E6%83%B3"><span class="nav-text">修訂紀錄與感想</span></a></li></ol>
-    </div>
-</div>
-
-            </div>
-        
     </div>
 </div>
 
@@ -431,7 +334,7 @@
             
 <footer class="footer border-box">
     <div class="copyright-info info-item">
-        &copy;&nbsp;<span>2024</span>&nbsp;-&nbsp;2024
+        &copy;&nbsp;<span>2024</span>&nbsp;-&nbsp;2025
         
             &nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;&nbsp;<a href="/">卡藍的小粉紅</a>
         
@@ -452,28 +355,6 @@
     </div>
 
     <!-- post tools -->
-    
-        <div class="post-tools right-toc">
-            <div class="post-tools-container border-box">
-    <ul class="tools-list border-box">
-        <!-- PC TOC show toggle -->
-        
-            <li class="tools-item flex-center toggle-show-toc">
-                <i class="fas fa-list"></i>
-            </li>
-        
-
-        <!-- PC go comment -->
-        
-
-        <!-- PC full screen -->
-        <li class="tools-item flex-center full-screen">
-            <i class="fa-solid fa-expand"></i>
-        </li>
-    </ul>
-</div>
-
-        </div>
     
 
     <!-- side tools -->
@@ -501,10 +382,6 @@
     </ul>
 
     <ul class="exposed-tools-list border-box">
-        
-            <li class="tools-item toggle-show-toc-tablet flex-center">
-                <i class="fas fa-list"></i>
-            </li>
         
 
         
@@ -562,18 +439,6 @@
 
     <!-- tablet toc -->
     
-        <div class="tablet-post-toc-mask">
-            <div class="tablet-post-toc">
-                <div class="post-toc-wrap border-box">
-    <div class="post-toc border-box">
-        <!-- use hexo-blog-encrypt -->
-        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%96%94%E6%98%AF%E5%96%94"><span class="nav-text">喔是喔</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%AC%E6%96%87%E8%B3%87%E8%A8%8A"><span class="nav-text">本文資訊</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%91%98%E8%A6%81"><span class="nav-text">摘要</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%AD%A3%E6%96%87"><span class="nav-text">正文</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%87%BA%E7%99%BC%E5%89%8D"><span class="nav-text">出發前</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%B0%E6%96%B0%E7%AB%B9"><span class="nav-text">到新竹</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%80%8A69manweiwei%E7%9A%84IOI%E9%87%91%E5%A5%87%E5%B9%BB%E5%86%92%E9%9A%AA%E3%80%8B%E5%89%8D%E5%82%B3-%E2%80%94%E3%80%8A%E5%82%B3%E6%9F%93%E7%97%85%E5%AD%B8%E5%AE%B6%E5%AF%A6%E4%B8%AD%E8%91%B3%E6%8B%AF%E6%95%91%E4%B8%96%E7%95%8C%E3%80%8B"><span class="nav-text">《69manweiwei的IOI金奇幻冒險》前傳 —《傳染病學家實中葳拯救世界》</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%9A%A8%E4%BE%BF%E5%B9%BE%E5%BC%B5%E7%85%A7%E7%89%87"><span class="nav-text">隨便幾張照片</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BD%B1%E7%89%87%E6%AA%94"><span class="nav-text">影片檔</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%9E%E8%87%BA%E5%8C%97"><span class="nav-text">回臺北</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BF%AE%E8%A8%82%E7%B4%80%E9%8C%84%E8%88%87%E6%84%9F%E6%83%B3"><span class="nav-text">修訂紀錄與感想</span></a></li></ol>
-    </div>
-</div>
-
-            </div>
-        </div>
-    
 </main>
 
 
@@ -604,26 +469,12 @@
 
 <!-- lazyload -->
 
+    
+<script src="/js/lazyload.js"></script>
+
+
 
 <div class="">
-    
-        <!-- post-helper -->
-        
-<script src="/js/post/post-helper.js"></script>
-
-
-        <!-- toc -->
-        
-            
-<script src="/js/post/toc.js"></script>
-
-        
-
-        <!-- copyright-info -->
-        
-
-        <!-- share -->
-        
     
 
     <!-- categories page -->
